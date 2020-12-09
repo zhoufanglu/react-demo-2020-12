@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
-//路由
-import {BrowserRouter as Router, Route, Link} from "react-router-dom"
 /*ReactDOM.render(
  /!* <React.StrictMode>
     <App />
@@ -12,6 +10,8 @@ import {BrowserRouter as Router, Route, Link} from "react-router-dom"
   <App />,
   document.getElementById('root')
 );*/
+import basicRouter from './basicRouter'
+console.log(14, basicRouter)
 /**********************study***********************/
 const tabList =
   <ul>
